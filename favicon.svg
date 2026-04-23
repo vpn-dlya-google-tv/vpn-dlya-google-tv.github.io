@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A237E"/>
+      <stop offset="100%" stop-color="#3D5AFE"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0F2E"/>
+      <stop offset="100%" stop-color="#0D1940"/>
+    </linearGradient>
+    <linearGradient id="vpn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E87A"/>
+      <stop offset="100%" stop-color="#00C853"/>
+    </linearGradient>
+    <linearGradient id="play" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#FF8C42"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded background -->
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+  <!-- TV body -->
+  <rect x="3" y="6" width="26" height="17" rx="3" fill="url(#screen)" stroke="rgba(255,255,255,0.15)" stroke-width="0.8"/>
+  <!-- TV screen inner -->
+  <rect x="5" y="8" width="22" height="13" rx="1.5" fill="#060C24"/>
+  <!-- Play button (streaming symbol) -->
+  <polygon points="13,11.5 13,17.5 19,14.5" fill="url(#play)" opacity="0.9"/>
+  <!-- VPN shield badge top-right -->
+  <circle cx="24.5" cy="8.5" r="5" fill="url(#vpn)"/>
+  <!-- Shield shape -->
+  <path d="M24.5 5.5 L27 7 L27 9 C27 10.5 24.5 11.5 24.5 11.5 C24.5 11.5 22 10.5 22 9 L22 7 Z" fill="white" opacity="0.9"/>
+  <!-- Lock keyhole -->
+  <circle cx="24.5" cy="8.2" r="0.9" fill="#00C853"/>
+  <rect x="24" y="8.7" width="1" height="1.3" rx="0.3" fill="#00C853"/>
+  <!-- TV stand neck -->
+  <rect x="14.5" y="23" width="3" height="2.5" rx="0.5" fill="rgba(255,255,255,0.2)"/>
+  <!-- TV stand base -->
+  <rect x="11" y="25.5" width="10" height="2" rx="1" fill="rgba(255,255,255,0.2)"/>
+</svg>
